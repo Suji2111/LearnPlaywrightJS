@@ -39,6 +39,23 @@ A learning project for JavaScript fundamentals and Playwright end-to-end testing
   - Multi-line comments (`/* ... */`)
   - JSDoc-style comments (`/** ... */`)
 
+### Chapter 04 — JavaScript Concepts (Hoisting)
+- **Variable Hoisting (`var`):** How `var` declarations are hoisted to the top of their scope and initialized with `undefined`
+- **Function Hoisting:** How functions are hoisted within their containing scope
+- **`let` Hoisting & TDZ:** Understanding the Temporal Dead Zone (TDZ) where `let` variables cannot be accessed before declaration
+- **Block-Scoped Hoisting:** How block-scoped variables behave inside `if` blocks and other block statements
+- **`const` Declarations:** Using `const` for immutable bindings and its hoisting behavior
+- **Differences between `var`, `let`, and `const`:** When and why to use each declaration type
+
+### Chapter 05 — Literals
+- **String Literals:** Creating strings with single (`'`) and double (`"`) quotes
+- **Numeric Literals:** Integers, negative numbers, zero, hexadecimal (`0x`), octal (`0o`), and scientific notation (`1e6`)
+- **Boolean Literals:** `true` and `false` values
+- **Null Literal:** Using `null` to explicitly represent "no value"
+- **Undefined:** Variables declared but not assigned automatically get `undefined`
+- **`typeof` Operator:** Checking the data type of a value or variable
+- **Template Literals:** Using backticks (`` ` ``) for string interpolation, multi-line strings, and embedded expressions
+
 ## Getting Started
 
 ### Prerequisites
@@ -97,6 +114,19 @@ npx playwright test --project=chromium
 │   ├── JS_Identifier_rules.js
 │   ├── VS_Code_Keyboard_Shortcuts_Windows.md
 │   └── VS_Code_Keyboard_Shortcuts_tableformat_Windows.md
+├── Chapter_04_JavaScript_Concepts/     # Chapter 4 - Hoisting & Variable Declarations
+│   ├── 16_Hoisting.js
+│   ├── 17_Hoisting_functions.js
+│   ├── 18_Let_Hoisting.js
+│   ├── 19_Hoisting_block.js
+│   ├── 20_Let_Const.js
+│   └── Jr_QA.js
+├── Chapter_05_Literal/                 # Chapter 5 - Literals & Data Types
+│   ├── 22_Literal.js
+│   ├── 24_null.js
+│   ├── 25_Literal_all.js
+│   ├── 27_String.js
+│   └── 28_Template_literal.js
 ├── tests/                                # Playwright test files
 ├── playwright.config.js                  # Playwright configuration
 ├── package.json                          # Project dependencies
