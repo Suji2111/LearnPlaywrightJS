@@ -56,6 +56,17 @@ A learning project for JavaScript fundamentals and Playwright end-to-end testing
 - **`typeof` Operator:** Checking the data type of a value or variable
 - **Template Literals:** Using backticks (`` ` ``) for string interpolation, multi-line strings, and embedded expressions
 
+### Chapter 06 — Operators
+- **Assignment Operators:** Using `=` to assign values to variables
+- **Arithmetic Operators:** Addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), modulus (`%`), and exponentiation (`**`)
+- **Comparison Operators:** Loose (`==`) vs strict (`===`) equality, greater than (`>`), less than (`<`), greater than or equal (`>=`), less than or equal (`<=`), and not equal (`!=`, `!==`)
+- **Logical Operators:** AND (`&&`), OR (`||`), and NOT (`!`)
+- **String Concatenation:** Combining strings with the `+` operator
+- **Ternary Operator:** Conditional expressions with `condition ? valueIfTrue : valueIfFalse`
+- **Increment & Decrement Operators:** Pre (`++a`, `--a`) and post (`a++`, `a--`) increment/decrement
+- **Nullish Coalescing Operator (`??`):** Providing default values for `null` or `undefined`
+- **Type Operator (`typeof`):** Checking the data type of values and variables
+
 ## Getting Started
 
 ### Prerequisites
@@ -127,6 +138,27 @@ npx playwright test --project=chromium
 │   ├── 25_Literal_all.js
 │   ├── 27_String.js
 │   └── 28_Template_literal.js
+├── Chapter_06_Operators/                 # Chapter 6 - Operators
+│   ├── 30_Operator.js
+│   ├── 31_Arithmetic_OP.js
+│   ├── 32_Modulus_Op.js
+│   ├── 33_Expo_op.js
+│   ├── 34_IQ.js
+│   ├── 35_Comparison_Op.js
+│   ├── 36_Comparison_loose.js
+│   ├── 37_IQ_Loose_strict.js
+│   ├── 38_Confusing_Comparison.js
+│   ├── 39_Logical_Op.js
+│   ├── 40_String_Con_Op.js
+│   ├── 41_Ternary_Op.js
+│   ├── 42_Type_Op.js
+│   ├── 43_Incre_Decre_Op.js
+│   ├── 44_Null_Op.js
+│   ├── 45_Post_Increment.js
+│   ├── 46_IQ_Increment_D.js
+│   ├── 47_Advanced_ID.js
+│   ├── Task_01.js
+│   └── Task_02.js
 ├── tests/                                # Playwright test files
 ├── playwright.config.js                  # Playwright configuration
 ├── package.json                          # Project dependencies
